@@ -18,6 +18,7 @@ function App() {
         description and when you click it goes away.
       </p>
       <p>□ I think the first one feels less annoying as a user.</p>
+      <div className="LandingPagesGrid"></div>
     </div>
   );
 }
