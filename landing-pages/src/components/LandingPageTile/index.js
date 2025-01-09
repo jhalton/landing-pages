@@ -1,12 +1,8 @@
 import React from "react";
 import "./LandingPageTile.css";
 
-const LandingPageTile = () => {
-  return (
-    <div>
-      <p>Landing Page Tile</p>
-    </div>
-  );
+const LandingPageTile = ({ title, screenshot, description }) => {
+  return <div>{title ? <p>{title}</p> : <p>Landing Page Tile</p>}</div>;
 };
 
 export default LandingPageTile;

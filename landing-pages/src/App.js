@@ -1,4 +1,5 @@
 import "./App.css";
+import LandingPageOne from "./components/01LandingPage";
 import LandingPageTile from "./components/LandingPageTile";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       <div className="LandingPagesGrid">
         <ul>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageOne />
           </li>
           <li className="LandingPageTile">
             <LandingPageTile />
