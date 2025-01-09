@@ -1,9 +1,13 @@
 import React from "react";
+import LandingPageTile from "../LandingPageTile";
 
 const LandingPageFour = () => {
+  const title = "Landing Page 04";
+  const screenshot = "";
+  const description = "";
   return (
     <div>
-      <h1>04 Landing Page</h1>
+      <LandingPageTile title={title} />
     </div>
   );
 };

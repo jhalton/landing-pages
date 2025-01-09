@@ -1,6 +1,12 @@
 import "./App.css";
 import LandingPageOne from "./components/01LandingPage";
-import LandingPageTile from "./components/LandingPageTile";
+import LandingPageTwo from "./components/02LandingPage";
+import LandingPageThree from "./components/03LandingPage";
+import LandingPageFour from "./components/04LandingPage";
+import LandingPageFive from "./components/05LandingPage";
+import LandingPageSix from "./components/06LandingPage";
+import LandingPageSeven from "./components/07LandingPage";
+import LandingPageEight from "./components/08LandingPage";
 
 function App() {
   return (
@@ -26,25 +32,25 @@ function App() {
             <LandingPageOne />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageTwo />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageThree />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageFour />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageFive />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageSix />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageSeven />
           </li>
           <li className="LandingPageTile">
-            <LandingPageTile />
+            <LandingPageEight />
           </li>
         </ul>
       </div>
