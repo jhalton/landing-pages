@@ -20,35 +20,32 @@ function App() {
       </p>
       <p>□ I think the first one feels less annoying as a user.</p>
       <div className="LandingPagesGrid">
-        <ol>
-          <span>
+        <ul>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
+          </li>
+          <li className="LandingPageTile">
             <LandingPageTile />
-          </span>
-          <span>
-            <LandingPageTile />
-          </span>
-        </ol>
+          </li>
+        </ul>
       </div>
     </div>
   );

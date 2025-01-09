@@ -4,7 +4,7 @@ import "./LandingPageTile.css";
 const LandingPageTile = () => {
   return (
     <div>
-      <h1>Landing Page Tile</h1>
+      <p>Landing Page Tile</p>
     </div>
   );
 };
