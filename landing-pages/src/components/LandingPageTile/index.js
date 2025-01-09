@@ -1,5 +1,5 @@
 import React from "react";
-import "/LandingPageTile.css";
+import "./LandingPageTile.css";
 
 const LandingPageTile = () => {
   return (

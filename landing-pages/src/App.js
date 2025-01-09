@@ -1,4 +1,5 @@
 import "./App.css";
+import LandingPageTile from "./components/LandingPageTile";
 
 function App() {
   return (
@@ -18,7 +19,37 @@ function App() {
         description and when you click it goes away.
       </p>
       <p>□ I think the first one feels less annoying as a user.</p>
-      <div className="LandingPagesGrid"></div>
+      <div className="LandingPagesGrid">
+        <ol>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+          <span>
+            <LandingPageTile />
+          </span>
+        </ol>
+      </div>
     </div>
   );
 }
