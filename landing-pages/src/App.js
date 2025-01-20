@@ -32,7 +32,7 @@ function App() {
         <div className="LandingPagesGrid">
           <ul>
             <li className="LandingPageTile">
-              <Link to="/pages/SkincarePage">
+              <Link to="/skincare">
                 <LandingPageOne />
               </Link>
             </li>
@@ -60,7 +60,7 @@ function App() {
           </ul>
         </div>
         <Routes>
-          <Route path="/pages/SkincarePage" element={<LandingPageOne />} />
+          <Route path="/SkincarePage" element={<LandingPageOne />} />
         </Routes>
       </div>
     </Router>
