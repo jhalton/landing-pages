@@ -9,6 +9,7 @@ import LandingPageSeven from "./components/07LandingPage";
 import LandingPageEight from "./components/08LandingPage";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import SkincarePage from "./pages/SkincarePage";
+import CafePage from "./pages/CafePage";
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
               </Link>
             </li>
             <li className="LandingPageTile">
-              <LandingPageTwo />
+              <Link to="/cafe">
+                <LandingPageTwo />
+              </Link>
             </li>
             <li className="LandingPageTile">
               <LandingPageThree />
@@ -60,7 +63,8 @@ function App() {
           </ul>
         </div>
         <Routes>
-          <Route path="/SkincarePage" element={<LandingPageOne />} />
+          <Route path="/skincare" element={<SkincarePage />} />
+          <Route path="/cafe" element={<CafePage />} />
         </Routes>
       </div>
     </Router>
